@@ -1,0 +1,112 @@
+nav{
+    text-align: center;
+    background-color: black;
+}
+
+.Asgard{
+    background-color: hsl(0, 0%, 19%);
+}
+
+img{
+    height: 200px;
+    width: 350px;
+    box-shadow: 10px 5px 5px;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+body nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    /* position: fixed; me esta dando problemas con los links de paginas externa */
+    font-family: "roboto";
+    padding: 0;
+    margin: 0;
+}
+
+body nav ul a{
+    text-decoration: none;
+    box-shadow: 10px 5px 5px;
+    border-radius: 5px;
+}
+
+body nav ul a{
+    color: rgb(41, 137, 175);
+}
+
+body nav ul :hover{
+    color: salmon;
+}
+
+hr{
+    border-color: #0044ff;
+    border-style: dotted;
+}
+
+h1{
+   text-align: center;
+   color: rgb(41, 137, 175);
+   background-color: black;
+   font-size: 50px;
+   font-style: italic; 
+   height: 100px;
+   box-shadow: 10px 5px 5px;
+}
+
+main{
+    color: black;
+    font-weight: bold;
+    font-family:"roboto";
+    background-image: url("https://coolwallpapers.me/picsup/5634172-world-warcraft-battle-azeroth-hd-wallpapers.jpg");
+    background-size: cover;
+}
+
+main a :hover{
+    color: salmon;
+}
+
+main a{
+    color: white;
+    font-weight: bold;
+}
+
+footer ul li{
+    list-style: none;
+    text-align: center;
+}
+
+footer ul li a{
+    text-decoration: none;
+    min-width: 200px;
+    min-height: 200px;
+    box-shadow: 10px 5px 5px;
+    border-radius: 5px;
+}
+
+footer ul li a{
+    color: #454545;
+}
+
+footer ul li :hover{
+    color: #f8f2f2;
+}
+
+footer ul li{
+    background-color: rgb(153, 143, 241);
+}
+
+.Logo1{
+    width: 30px;
+    height: 30px;
+}
+
+.Logo2{
+    width: 30px;
+    height: 30px;
+}
+
+.Logo3{
+    width: 30px;
+    height: 30px;
+}
